@@ -2,6 +2,7 @@ package com.hackerrank.introduction.exercise02;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayInputStream;
@@ -10,6 +11,7 @@ import java.io.PrintStream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
+@DisplayName("Solution Test Java Stdin and Stdout I")
 public class SolutionTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
